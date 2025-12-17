@@ -16,7 +16,6 @@
             background: #ffffff;
             min-height: 100vh;
             display: flex;
-            flex-direction: column;
             align-items: center;
             justify-content: center;
             padding: 20px;
@@ -26,13 +25,17 @@
             text-align: center;
             max-width: 600px;
             width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         .logo {
             width: 100%;
-            max-width: 400px;
+            max-width: 450px;
             height: auto;
-            margin-bottom: 60px;
+            margin-bottom: 40px;
         }
 
         .message {
@@ -42,14 +45,14 @@
         .greeting {
             font-size: clamp(32px, 5vw, 48px);
             font-weight: 700;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
             line-height: 1.2;
         }
 
         .thank-you {
             font-size: clamp(20px, 3.5vw, 32px);
             font-weight: 400;
-            margin-bottom: 40px;
+            margin-bottom: 35px;
             line-height: 1.4;
         }
 
@@ -59,29 +62,28 @@
             line-height: 1.6;
         }
 
-        /* Emojikat nagyobb méretben jelenítjük meg */
         .emoji {
             font-size: 1.2em;
         }
 
         @media (max-width: 480px) {
             .logo {
-                margin-bottom: 40px;
+                margin-bottom: 30px;
             }
             
             .greeting {
-                margin-bottom: 25px;
+                margin-bottom: 20px;
             }
             
             .thank-you {
-                margin-bottom: 30px;
+                margin-bottom: 25px;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <img src="Untitled_design.svg" alt="Diverzum Logo" class="logo">
+        <img src="https://raw.githubusercontent.com/FELHASZNALONEV/REPO-NEV/main/Untitled_design.svg" alt="Diverzum Logo" class="logo">
         
         <div class="message">
             <h1 class="greeting">Szia! <span class="emoji">👋🏻</span></h1>
